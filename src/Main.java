@@ -16,6 +16,9 @@ public class Main {
         Mentoria mentoria = new Mentoria();
         mentoria.setMentoria("Mentoria de Java", "Se prepare para o mercado de trabalho!", LocalDate.now());
 
+        System.out.println(cursoJava);
+        System.out.println(cursoReact);
+        System.out.println(mentoria);
     }
 
 }
