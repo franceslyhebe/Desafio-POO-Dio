@@ -5,4 +5,18 @@ public class Curso extends Conteudo{
     private String descricao;
     private int cargaHoraria;
 
+    public void setCurso(String titulo, String descricao, int cargaHoraria){
+        this.titulo = titulo;
+        this.descricao = descricao;
+        this.cargaHoraria = cargaHoraria;
+    }
+
+    @Override
+    public String toString() {
+        return "Curso{" +
+                "titulo='" + titulo + '\'' +
+                ", descricao='" + descricao + '\'' +
+                ", cargaHoraria=" + cargaHoraria +
+                '}';
+    }
 }
